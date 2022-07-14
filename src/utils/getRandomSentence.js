@@ -1,0 +1,58 @@
+const sentences = [
+	"hello, how are you. Tell me more!",
+	"am good how are you.",
+	"The iregd idfdis sfsd",
+	"we need to study alot.",
+	"today is a good day.",
+	"how is it.",
+	"tell me.",
+	"are you ready",
+	"it good to be here.",
+	"what are you up to.",
+	"tell me about you.",
+	"we are okay.",
+	"its good to be here.",
+	"am happy.",
+	"tomorrow will be good.",
+	"hey.",
+	"where are you? ",
+	"am okay. ",
+	"this is great.",
+	"tell me something new.",
+	"am new here.",
+	"tell me something. ",
+	"what do you do for a living.",
+	"today will be a blessing.",
+	"its good right.",
+	"how is everything and how are you holding up.",
+	"what are you doing.",
+	"this is another trial.",
+	"things here are different.",
+	"0789534832.",
+	"good morning.",
+	"am a front-end developer.",
+	"tomorrow will be good.",
+	"gh theo dffd sriewr.",
+	"tomorrow will be good.",
+	"this is another level.",
+	"how is everything.",
+	"this is good and bad also.",
+	"i went home.",
+	"yesterday.",
+	"how are you to.",
+	"this is good.",
+	"this is a new feature.",
+	" we like coding.",
+	"hello their.",
+	"this is new.",
+	"am okay.",
+	"this is new.",
+];
+
+const getRandomSentence = () => {
+	const randomIndex = Math.floor(Math.random() * sentences.length);
+	const sentence = sentences[randomIndex];
+	return sentence;
+};
+
+export default getRandomSentence;
